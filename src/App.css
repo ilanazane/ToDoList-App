@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.TodoApp{
+  align-items: center;
+}
+
+.App-header {
+  background-color: #DBF2FA;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #f77474;
+  font-family: "OCR A Std",monospace;
+}
+
+.App-link {
+  font-size: 20px;
+  color: #f77474;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
